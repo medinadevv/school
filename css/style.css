@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #2435A1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header {
+    background: #2435a1;
+}
+.header {
+
+    backdrop-filter: blur(5px);
+    animation: header 2s ease-in-out;
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(-200px);
+    }
+
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-nav select {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: #2435a1;
+}
+
+.header-icon a {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.hero-icon div {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #FFFFFF;
+    border-radius: 51px;
+}
+
+.hero-icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-icon h2 {
+    margin-left: -50px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.hero-icon a {
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: #FC724D;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-title h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.hero-title p {
+    padding: 40px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.hero-title {
+    margin-left: 80px;
+}
+#school {
+    background: white;
+}
+.school {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.school-title {
+    padding-bottom: 60px;
+}
+.school {
+    padding-top: 200px;
+}
+
+.school-title h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.school-title p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.school-logo {
+    width: 87px;
+    height: 87px;
+    background: #F7F7F7;
+    box-shadow: 6px 5px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.school-block {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding:    30px 0;
+}
+.school-block-title p {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-left: 20px;
+}
+.school-block-title h1 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #1100D9;
+    padding-left: 20px;
+    padding-top: 15px;
+
+}
+.school-block-title {
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+.school-img {
+    position: relative;
+}
+.school-sc {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+.school-p p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163.4%;
+    letter-spacing: 0.2px;
+    color: #000000;
+    padding-bottom:     40px;
+}
+.school-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.school-p button {
+    width: 257px;
+    height: 55px;
+    border: 2px solid #1100D9;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    background: #1100D9 ;
+    transition: .4s ease-in-out;
+}
+.school-p button a {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.school-p button:hover {
+    border: 2px solid #1100D9;
+    transform: scale(0.8);
+    cursor: pointer;
+    background: #1100D9;
+    box-shadow: 0 5px 5px #1100D9,
+    0 0 20px #1100D9,
+    0 0 60px #1100D9,
+    0 0 150px #1100D9;
+}
+
+.teach {
+    margin-left: 80px;
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+.teacher h1 {
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    color: #000000;
+
+}
+
+.teacher p {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    color: #000000;
+
+}
+
+#teacher {
+    background: #FFFFFF;
+    padding: 40px 0;
+}
+.teacher{
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.teach1 {
+    padding-top: 70px;
+    margin-left: 70px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #000000;
+
+}
+.teach2 {
+    padding: 20px 0;
+    margin-left: 70px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    color: #000000;
+
+}
+#room {
+    background: #FFFFFF;
+}
+.room {
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.room5 {
+    margin-left: 70px;
+    padding: 60px 0;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+.rooms1 img {
+    padding-right: 10px;
+}
+.rooms2 img {
+    padding: 5px 5px;
+}
+.rooms3 img {
+    padding: 5px 5px;
+    margin-right: 90px;
+
+}
+
+.phone a {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+.phone {
+    margin-left: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#phone {
+    padding: 90px 0;
+    background: #FFFFFF;
+}
+.phones {
+    margin-left: 70px;
+    padding: 0px 0;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #000000;
+
+}
+
+.phone a {
+    padding: 20px 0;
+}
+#footer {
+    padding: 50px 0;
+    background: #2435a1;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-img a {
+    padding: 40px 0;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+
+}
+.footer-img {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gmail a {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+.gmail2 h1 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+.gmail3 a {
+    margin: 0 5px;
+   color:  #FFFFFF;
+    font-size: 25px ;
+}
+
+.gmail3 {
+    padding: 20px 0;
+}
+.line {
+    width: 1170px;
+    border: 1px solid #FFFFFF;
+    margin-left: 70px;
+}
+.true0 {
+    margin-left: 70px;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+}
+.true h1 {
+    font-weight: 700;
+    font-size: 13px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+}
+.true-title h1 {
+    font-weight: 700;
+    font-size: 13px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+}
+.true-title h2 {
+    margin-left: 650px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+}
+.true-img img {
+    margin-left: -140px;
+}
+#line{
+    padding: 50px 0;
+    background: #2435A1;
+}
+.line h3 {
+    font-size: 33px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.line {
+    padding: 050px;
+    width: 600px;
+    height: 400px;
+    background: rgb(5, 5, 5);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px ;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line input {
+    color: #dcd6d6;
+    margin-bottom: 80px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    width: 433px;
+    height: 40px;
+}
+
+.line input::placeholder{
+    text-align: start;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.liner {
+    margin-left: 70px;
+    width: 1170px;
+    border: 1px solid #FFFFFF;
+}
+
+
+
+
